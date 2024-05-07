@@ -1,0 +1,38 @@
+.oculto {
+    display: none !important;
+}
+
+#contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjetaProducto {
+    border: 1px solid black;
+    margin: 2px;
+
+}
+    img {
+        height: 200px;
+    }
+
+    .tarjetaProducto h3 {
+        background-color: blanchedalmond;
+    }
+
+#contenedorCarrito {
+    border: 2px solid black;
+    width: 100%;
+    min-height: 100px;
+}
+
+.tarjetaProductoCarrito {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hermosoEstilo {
+    height: 200px;
+    width: 200px;
+    border: 5px solid orangered;
+}
